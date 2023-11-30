@@ -23,16 +23,12 @@ public class StringClass {
         } else {
             System.out.println("You entered: " + (userInput));
             System.out.println(StringUtils.reverse(userInput) + "  :esrever nI");
-            System.out.println("In Upper Case: " + StringUtils.swapCase(userInput) + "!");
+            System.out.println("In Upper Case: " + StringUtils.upperCase(userInput) + "!");
         }
         
     }
-   
-    
-    
-    
-    
-    
-    
 
+
+    public void test1() {
+    }
 }
